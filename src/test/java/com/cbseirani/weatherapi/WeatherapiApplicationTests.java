@@ -1,10 +1,10 @@
-package cbseirani.demo;
+package com.cbseirani.weatherapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WeatherExampleApplicationTests {
+class WeatherapiApplicationTests {
 
 	@Test
 	void contextLoads() {

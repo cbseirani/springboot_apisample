@@ -1,14 +1,13 @@
-package cbseirani.demo;
+package com.cbseirani.weatherapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WeatherExampleApplication {
+public class WeatherapiApplication {
 
 	public static void main(String[] args) {
-
-		SpringApplication.run(WeatherExampleApplication.class, args);
+		SpringApplication.run(WeatherapiApplication.class, args);
 	}
 
 }

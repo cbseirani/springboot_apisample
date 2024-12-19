@@ -1,6 +1,6 @@
 package com.cbseirani.weatherapi.repositories;
 
-import com.cbseirani.weatherapi.entities.Item;
+import com.cbseirani.weatherapi.cqrs.entities.Item;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

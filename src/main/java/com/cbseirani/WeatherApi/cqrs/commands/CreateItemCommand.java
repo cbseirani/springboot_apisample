@@ -1,4 +1,4 @@
-package com.cbseirani.weatherapi.commands;
+package com.cbseirani.weatherapi.cqrs.commands;
 
 import lombok.Value;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;

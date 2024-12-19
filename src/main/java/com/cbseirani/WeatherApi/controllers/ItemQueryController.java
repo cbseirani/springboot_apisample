@@ -1,7 +1,7 @@
 package com.cbseirani.weatherapi.controllers;
 
 import com.cbseirani.weatherapi.models.Item;
-import com.cbseirani.weatherapi.queries.FindAllItemsQuery;
+import com.cbseirani.weatherapi.cqrs.queries.FindAllItemsQuery;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;

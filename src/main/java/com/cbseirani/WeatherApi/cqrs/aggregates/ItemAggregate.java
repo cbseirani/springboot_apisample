@@ -1,7 +1,7 @@
-package com.cbseirani.weatherapi.aggregates;
+package com.cbseirani.weatherapi.cqrs.aggregates;
 
-import com.cbseirani.weatherapi.commands.CreateItemCommand;
-import com.cbseirani.weatherapi.events.ItemCreatedEvent;
+import com.cbseirani.weatherapi.cqrs.commands.CreateItemCommand;
+import com.cbseirani.weatherapi.cqrs.events.ItemCreatedEvent;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.axonframework.commandhandling.CommandHandler;

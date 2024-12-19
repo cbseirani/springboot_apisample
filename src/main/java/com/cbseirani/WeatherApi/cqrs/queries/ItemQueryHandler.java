@@ -1,6 +1,6 @@
-package com.cbseirani.weatherapi.queries;
+package com.cbseirani.weatherapi.cqrs.queries;
 
-import com.cbseirani.weatherapi.entities.Item;
+import com.cbseirani.weatherapi.cqrs.entities.Item;
 import com.cbseirani.weatherapi.repositories.ItemRepository;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.queryhandling.QueryHandler;

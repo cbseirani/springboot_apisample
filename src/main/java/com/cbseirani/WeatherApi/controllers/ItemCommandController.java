@@ -1,6 +1,6 @@
 package com.cbseirani.weatherapi.controllers;
 
-import com.cbseirani.weatherapi.commands.CreateItemCommand;
+import com.cbseirani.weatherapi.cqrs.commands.CreateItemCommand;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.slf4j.Logger;

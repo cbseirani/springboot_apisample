@@ -1,4 +1,4 @@
-package com.cbseirani.weatherapi.events;
+package com.cbseirani.weatherapi.cqrs.events;
 
 import lombok.Value;
 

@@ -1,4 +1,4 @@
-package com.cbseirani.weatherapi.entities;
+package com.cbseirani.weatherapi.cqrs.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

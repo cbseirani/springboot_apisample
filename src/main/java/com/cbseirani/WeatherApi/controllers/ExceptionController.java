@@ -5,11 +5,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hello")
-public class HelloController {
+@RequestMapping("/exception")
+public class ExceptionController {
 
-    @GetMapping()
-    public String sayHello() {
+    @GetMapping("/not-valid")
+    public String throwNotValid() {
+        return "Hello, World!";
+    }
+
+    @GetMapping("/not-found")
+    public String throwNotFound() {
         return "Hello, World!";
     }
 }
